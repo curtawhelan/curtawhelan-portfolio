@@ -1,4 +1,8 @@
-import '../styles/globals.css'
+"use client"
+import Footer from "@/components/Footer"
+import Navbar from "@/components/Navbar"
+import { ThemeProvider } from "next-themes"
+import "../styles/globals.css"
 
 export default function RootLayout({
   children,
@@ -12,7 +16,13 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>{children}</body>
+      <body className="dark:bg-stone-900">
+        <ThemeProvider enableSystem={true} attribute="class">
+          <Navbar />
+          {children}
+          <Footer />
+        </ThemeProvider>
+      </body>
     </html>
   )
 }
