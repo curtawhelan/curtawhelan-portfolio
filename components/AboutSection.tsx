@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const skills = [
   { skill: "HTML" },
@@ -11,7 +11,7 @@ const skills = [
   { skill: "SQL" },
   { skill: "Git" },
   { skill: "GitHub" },
-];
+]
 
 const AboutSection = () => {
   return (
@@ -27,24 +27,37 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              {" "}
-              Hi, my name is Curt and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Lexington, KY and open to relocation
-            </p>
-            <br />
-            <p>
               I graduated from the University of Kentucky in 2022 with a
               Bachelors Degree in Computer Science and am looking to start my
               career in Software Engineering
             </p>
             <br />
             <p>
-              My hobbies are always changing so as of late I have been getting
-              back into skateboarding, learning about politics, and playing
-              video games with friends
+              {" "}
+              I have always had a{" "}
+              <span className="font-bold text-teal-600">
+                love for computers
+              </span>
+              , but my passion truly started when I built my first desktop PC at
+              the age of 14. Ever since then, I have been drawn to{" "}
+              <span className="font-bold text-teal-600">
+                understanding how computers function
+              </span>{" "}
+              and exploring ways to utilize them to impact those around me. By
+              acting as their personal IT guy, I have introduced many friends to
+              PC gaming. <i>Despite</i> the frustrations that come along with
+              computers,{" "}
+              <span className="font-bold text-teal-600">
+                I live for those moments when everything comes together and
+                works
+              </span>
+            </p>
+            <br />
+            <p>
+              Most of my hobbies involve a computer, such as playing video games
+              with my friends, indulging in my crippling Wikipedia addiction, or
+              learning a new skill. Outside of technology I enjoy skateboarding,
+              collecting vinyl records, and traveling with friends
             </p>
           </div>
           <div className="md:w-1/2">
@@ -60,14 +73,14 @@ const AboutSection = () => {
                   >
                     {item.skill}
                   </p>
-                );
+                )
               })}
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default AboutSection;
+export default AboutSection
