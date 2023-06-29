@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import React from "react"
-import { BsArrowUpRightSquare, BsGithub } from "react-icons/bs"
+import { BsArrowUpRightSquare, BsGithub, BsYoutube } from "react-icons/bs"
 import SlideUp from "./SlideUp"
 
 const projects = [
@@ -10,19 +10,20 @@ const projects = [
     description:
       "Trek Track is an iOS application that is designed to help people motivate people with the completion of otherwise mundane tasks",
     image: "/trektrack-logo.png",
-    github: "https://www.youtube.com/watch?v=asLSwNE51Sw",
+    github:
+      "https://github.com/ukcs485gFall2022/final-project-client-curtawhelan",
   },
   {
     name: "NO CTRL",
     description:
-      "NO CTRL is a video game created in Unity. The gameplay is similar to space invaders where you need to use the cover around you and time your shots in order to survive.",
+      "NO CTRL is a video game created in Unity. The gameplay is similar to space invaders where you need to use the cover around you and time your shots in order to survive",
     image: "/no-ctrl.PNG",
     github: "https://github.com/curtawhelan/NO-CTRL",
   },
   {
-    name: "Slow Mo Jo",
+    name: "Slow Mo Joe",
     description:
-      "Slow Mo Jo is a side scrolling shooter made using Unity. My main focus with this project was to have a cohesive and attractive artstyle and polish the slow motion mechanic.",
+      "Slow Mo Joe is a side scrolling shooter made using Unity. My main focus with this project was to have a cohesive and attractive artstyle and polish the slow motion mechanic",
     image: "/Slow-Mo-Joe.PNG",
     github: "https://github.com/curtawhelan/Slow-Mo-Jo",
   },

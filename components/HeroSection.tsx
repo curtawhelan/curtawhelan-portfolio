@@ -1,8 +1,8 @@
-"use client";
-import Image from "next/image";
-import React from "react";
-import { HiArrowDown } from "react-icons/hi";
-import { Link } from "react-scroll/modules";
+"use client"
+import Image from "next/image"
+import React from "react"
+import { HiArrowDown } from "react-icons/hi"
+import { Link } from "react-scroll/modules"
 
 const HeroSection = () => {
   return (
@@ -31,7 +31,7 @@ const HeroSection = () => {
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 front-semibold px-6 py-3 bg-teal-600 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="text-neutral-100 front-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -55,7 +55,7 @@ const HeroSection = () => {
         </Link>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default HeroSection;
+export default HeroSection

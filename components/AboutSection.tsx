@@ -1,16 +1,19 @@
 import React from "react"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
+  { skill: "HTML5" },
+  { skill: "CSS 3" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "ReactJS" },
+  { skill: "React" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
   { skill: "SQL" },
   { skill: "Git" },
   { skill: "GitHub" },
+  { skill: "C#" },
+  { skill: "Unity" },
+  { skill: "Swift" },
 ]
 
 const AboutSection = () => {
@@ -56,8 +59,9 @@ const AboutSection = () => {
             <p>
               Most of my hobbies involve a computer, such as playing video games
               with my friends, indulging in my crippling Wikipedia addiction, or
-              learning a new skill. Outside of technology I enjoy skateboarding,
-              collecting vinyl records, and traveling with friends
+              learning a new skill such as Front-End Development. Outside of
+              technology I enjoy skateboarding, collecting vinyl records, and
+              traveling with friends
             </p>
           </div>
           <div className="md:w-1/2">
