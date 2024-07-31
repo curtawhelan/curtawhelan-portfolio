@@ -31,8 +31,8 @@ const AboutSection = () => {
             </h1>
             <p>
               I graduated from the University of Kentucky in 2022 with a
-              Bachelors Degree in Computer Science and am looking to start my
-              career in Software Engineering
+              Bachelors Degree in Computer Science. I&apos;m currently working
+              as a Database Developer for Caresource!
             </p>
             <br />
             <p>
